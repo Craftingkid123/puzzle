@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="challangeOne.css">
+    <script src="challangeOne.js"></script>
+    <title>Challange 1</title>
+</head>
+<body>
+    <h2> Welcome to Challange 1! This is where things get fun! To get to the next challange, you must enter <a onclick="displayCode()">THE CODE</a> in the box below. When you enter the correct code and press submit you will be automatically redirected. The only way to find the code is by finding it in this webpage. It will only be found by those who look closely. Good Luck!</h2><br><br>
+
+    <div class="codeInput">
+        <label for="code">Code:</label>
+        <input type="text" id="code" required /><br><br>
+    </div> 
+    <button class="codeSubmitButton" onclick="submitCode()">Submit</button>
+    <h3 id="errorMessage"></h3>
+
+    <div class="helpbutton">
+        <button onclick="help()">Help</button>
+
+    </div>
+</body>
+</html>

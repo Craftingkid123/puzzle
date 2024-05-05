@@ -1,0 +1,14 @@
+* {
+    font-family: "Courier New";
+    background-color: black;
+    color: rgb(0, 156, 0);
+    text-align: center;
+}
+
+button {
+    font-size: xx-large;
+}
+
+.nextButton {
+    font-size: xx-large;
+}

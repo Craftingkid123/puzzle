@@ -1,0 +1,42 @@
+* {
+    font-family: "Courier New";
+    background-color: black;
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+.codeInput {
+    font-family: "Courier New";
+    font-size: x-large;
+}
+.codeSubmitButton {
+    width: 250px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.helpbutton {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-family: "Courier New";
+    font-size: larger;
+    color: rgb(0, 0, 0);
+
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+}
+
+.scrollDownText {
+    position: relative;
+    top: 1500px;
+}
+.furtherDownText {
+    position: relative;
+    top: 2500px;
+}
+.furthestDownText {
+    position: relative;
+    top: 3500px;
+}

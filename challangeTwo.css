@@ -1,0 +1,40 @@
+* {
+    font-family: "Courier New";
+    background-color: black;
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+.secretButton {
+    position: relative;
+    color: black;
+    border-color: rgb(10, 10, 10);
+    background-color: black;
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+    top: 125px;
+}
+
+.codeInput {
+    font-family: "Courier New";
+    font-size: x-large;
+}
+.codeSubmitButton {
+    width: 250px;
+    padding: 10px;
+    font-size: x-large;
+}
+
+.helpbutton {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    font-family: "Courier New";
+    font-size: larger;
+    color: rgb(0, 0, 0);
+
+    position: fixed;
+    bottom: 50px;
+    right: 75px;
+}

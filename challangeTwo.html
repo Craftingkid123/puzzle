@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="challangeTwo.css">
+    <script src="challangeTwo.js"></script>
+    <title>Challange 2</title>
+</head>
+<body>
+    <h1>That was light work. Let make this harder.</h1>
+    <h2>To solve this puzzle, enter the correct code. Look at your mouse and look closely at colors. (Hint, just because something is invisible doesn't mean it isn't there)</h2>
+    <div class="codeInput">
+        <label for="code">Code:</label>
+        <input type="text" id="code" required /><br><br>
+    </div> 
+    <button class="codeSubmitButton" onclick="submitCode()">Submit</button>
+    <h3 id="errorMessage"></h3>
+    <div class="secretButton">
+        <button class="secretButton" onclick="popup()">hi</button>
+    </div>
+
+    <div class="helpbutton">
+        <button onclick="help()">Help</button>
+
+    </div>
+</body>
+</html>

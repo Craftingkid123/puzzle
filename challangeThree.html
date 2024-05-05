@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="challangeThree.js"></script>
+    <link rel="stylesheet" href="challangeThree.css">
+    <title>Challange 3</title>
+</head>
+<body>
+    <h2>OK. If you made it here, you're the real deal. This challange will take problem solving. Listen to the audio below to solve this puzzle! Good Luck! (Hint the code is all lowercase)</h2>
+    
+    <audio controls>
+        <source src="c3audio.m4a" type="audio/mp3">
+    </audio>
+
+    <br><br><div class="codeInput">
+        <label for="code">Code:</label>
+        <input type="text" id="code" required /><br><br>
+    </div> 
+    <button class="codeSubmitButton" onclick="submitCode()">Submit</button>
+    <h3 id="errorMessage"></h3>
+
+    <div class="helpbutton">
+        <button onclick="help()">Help</button>
+
+    </div>
+</body>
+</html>
