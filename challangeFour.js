@@ -5,7 +5,7 @@ function submitCode() {
         
     } else {
         if (code == "uniform") {
-            window.location.href = "challangeFive.html"
+            window.location.href = "finish.html"
         } else {
             document.getElementById("errorMessage").innerHTML = "The code, " + code + ", was incorrect. Try another code."
         }
