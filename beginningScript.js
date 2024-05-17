@@ -4,7 +4,11 @@ function begin() {
 }
 
 
-function nextPage() {
+function singleplayer() {
     window.location.href = "challangeOne.html"
 
+}
+
+function multiPlayer() {
+    window.location.href = "name.html"
 }
